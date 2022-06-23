@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Akshar|Atma' rel='stylesheet'>
+</head>
+<body>
+    <div class="player" id="players">
+        <div player-turn></div>
+    </div>
+    <div class="player-names" id="playerNames">
+        <input type= "text" id="playerName1" >
+        <input type= "text" id="playerName2" > 
+        <button id="playButton">Start</button>
+    </div>
+    <div class="mainboard" id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+  
+    <div class="winning-message" id="winningMessage">
+        <div winning-text>YES</div>
+        <button id="restartButton">Play Again</button>
+    </div>
+    <audio src="clapping.mp3" src="fail.mp3"></audio>
+    <script src="main.js"></script>
+</body>
+</html>
